@@ -13,7 +13,7 @@ public class SynSingleton {
 
     public SynSingleton getInstance(){
         if (synSingleton ==null){
-            synchronized (this){
+            synchronized (SynSingleton.class){
                 if (synSingleton==null){
                     synSingleton=new SynSingleton();
                 }
