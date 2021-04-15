@@ -1,4 +1,4 @@
-package com.designmode.Singleton;
+package com.designmode.singleton;
 /**
  * @author Evolution
  * @title: InnerClassSingleton
